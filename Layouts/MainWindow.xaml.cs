@@ -42,7 +42,8 @@ namespace Layouts
 
         private void GridButton_Click(object sender, RoutedEventArgs e)
         {
-           
+           GridWindow gWindow = new GridWindow();
+            gWindow.Show();
         }
 
         private void StackPanelButton_Click(object sender, RoutedEventArgs e)
