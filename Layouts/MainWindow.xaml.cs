@@ -56,7 +56,8 @@ namespace Layouts
 
         private void DockPanelButton_Click(object sender, RoutedEventArgs e)
         {
-           
+            DockPanelWindow dpWindow = new DockPanelWindow();
+            dpWindow.Show();
         }
 
         private void GridSplitterButton_Click(object sender, RoutedEventArgs e)
