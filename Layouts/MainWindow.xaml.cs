@@ -75,6 +75,8 @@ namespace Layouts
 
         private void ThumbButton_Click(object sender, RoutedEventArgs e)
         {
+            ThumbScrollBarWindow tsbWindow = new ThumbScrollBarWindow();
+            tsbWindow.Show();
         }
 
         private void WrapPanelButton_Click(object sender, RoutedEventArgs e)
