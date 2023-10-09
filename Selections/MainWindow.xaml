@@ -39,5 +39,12 @@
             <RadioButton GroupName="NumberGroup" Checked="RadioButton_Checked">1</RadioButton>
             <RadioButton GroupName="NumberGroup" Checked="RadioButton_Checked">2</RadioButton>
         </StackPanel>
+
+        <TextBlock Text="SLIDER" Margin="0,20,0,10"  FontSize="18" FontWeight="Bold" Foreground="BlueViolet"/>
+        <StackPanel Orientation="Horizontal">
+            <Slider Name="sldMySlider1" Width="200" Orientation="Horizontal" HorizontalAlignment="Left" Value="50" Minimum="0" Maximum="100" 
+                SmallChange="1" LargeChange="10" TickPlacement="TopLeft" TickFrequency="10"/>
+            <Rectangle Fill="Blue" HorizontalAlignment="Left"  Width="{Binding ElementName=sldMySlider1,Path=Value}"/>
+        </StackPanel>
     </StackPanel>
 </Window>
