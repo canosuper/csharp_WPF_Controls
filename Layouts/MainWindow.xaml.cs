@@ -81,6 +81,8 @@ namespace Layouts
 
         private void WrapPanelButton_Click(object sender, RoutedEventArgs e)
         {
+            WrapPanelWindow  wpWindow = new WrapPanelWindow();
+            wpWindow.Show();
         }
     }
 }
