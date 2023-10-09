@@ -39,7 +39,8 @@ namespace Layouts
 
         private void ExpanderButton_Click(object sender, RoutedEventArgs e)
         {
-            
+            ExpanderWindow expanderWindow = new ExpanderWindow();   
+            expanderWindow.Show();
         }
 
         private void GridButton_Click(object sender, RoutedEventArgs e)
