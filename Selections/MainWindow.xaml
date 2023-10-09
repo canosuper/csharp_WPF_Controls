@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Selections"
+        xmlns:local="clr-namespace:Selections" Loaded="Window_Loaded"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <StackPanel Margin="10">
@@ -11,5 +11,9 @@
         <TextBlock x:Name="txbMyTextBlock1" Text="Sin selección aún." />
         <CheckBox x:Name="chbMyCheckBox" Margin="20" Content="CheckBox de 3 estados" IsThreeState="False" 
                   Checked="chbMyCheckBox_Checked"  Unchecked="chbMyCheckBox_Unchecked" Indeterminate="chbMyCheckBox_Indeterminate" />
+
+        <TextBlock Text="COMBOBOX" Margin="0,20,0,10"  FontSize="18" FontWeight="Bold" Foreground="BlueViolet"/>
+        <TextBlock Text="{Binding ElementName=cmbMyComboBox, Path=SelectedItem}"/>
+        <ComboBox Name="cmbMyComboBox" Text="My Cities" IsEditable="true" IsReadOnly="false"/>
     </StackPanel>
 </Window>

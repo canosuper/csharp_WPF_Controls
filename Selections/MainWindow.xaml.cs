@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -38,6 +39,24 @@ namespace Selections
         private void chbMyCheckBox_Indeterminate(object sender, RoutedEventArgs e)
         {
             txbMyTextBlock1.Text = "The CheckBox is in the indeterminate state.";
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            cmbMyComboBox.ItemsSource = new Countries();
+        }
+
+    }
+
+    class Countries : ObservableCollection<string>
+    {
+        public Countries()
+        {
+            Add("España");
+            Add("Francia");
+            Add("Perú");
+            Add("México");
+            Add("Italia");
         }
     }
 }
