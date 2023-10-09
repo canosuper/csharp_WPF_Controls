@@ -63,7 +63,8 @@ namespace Layouts
 
         private void GridSplitterButton_Click(object sender, RoutedEventArgs e)
         {
-            
+            GridSplitter gSplitter = new GridSplitter();
+            gSplitter.Show();
         }
 
         private void GroupBoxButton_Click(object sender, RoutedEventArgs e)
