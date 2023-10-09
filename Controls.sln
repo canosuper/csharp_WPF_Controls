@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Layout_Border", "Layout_Border\Layout_Border.csproj", "{6F2C48E9-12F0-44A2-85A1-901BAF4CBBB1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Layouts", "Layouts\Layouts.csproj", "{7421CF7C-FFF8-4FE4-A351-1EC899FE2CA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6F2C48E9-12F0-44A2-85A1-901BAF4CBBB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6F2C48E9-12F0-44A2-85A1-901BAF4CBBB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6F2C48E9-12F0-44A2-85A1-901BAF4CBBB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6F2C48E9-12F0-44A2-85A1-901BAF4CBBB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7421CF7C-FFF8-4FE4-A351-1EC899FE2CA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7421CF7C-FFF8-4FE4-A351-1EC899FE2CA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7421CF7C-FFF8-4FE4-A351-1EC899FE2CA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7421CF7C-FFF8-4FE4-A351-1EC899FE2CA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
