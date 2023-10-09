@@ -16,6 +16,35 @@
                 <DataGridCheckBoxColumn Header="¿Es Miembro?" Binding="{Binding IsMember}" />
             </DataGrid.Columns>
         </DataGrid>
-        
+        <TreeView>
+            <TreeViewItem Header="Employee1">
+                <TreeViewItem Header="Jesper"/>
+                <TreeViewItem Header="Aaberg"/>
+                <TreeViewItem Header="12345">
+                    <TreeViewItem Header="Other"/>
+                </TreeViewItem>
+            </TreeViewItem>
+            <TreeViewItem Header="Employee2">
+                <TreeViewItem Header="Dominik"/>
+                <TreeViewItem Header="Paiha"/>
+                <TreeViewItem Header="98765"/>
+            </TreeViewItem>
+        </TreeView>
+        <TreeView Name="trvMyTreeView">
+            <TreeView.ItemTemplate>
+                <HierarchicalDataTemplate DataType="{x:Type local:Customer}" ItemsSource="{Binding Partners}">
+                    <TextBlock Text="{Binding Name}" />
+                </HierarchicalDataTemplate>
+            </TreeView.ItemTemplate>
+        </TreeView>
+        <ListView Margin="10" Name="lsvCustomers">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Nombre" Width="120" DisplayMemberBinding="{Binding Name}" />
+                    <GridViewColumn Header="Edad" Width="50" DisplayMemberBinding="{Binding Age}" />
+                    <GridViewColumn Header="Dirección" Width="150" DisplayMemberBinding="{Binding Address}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
     </StackPanel>
 </Window>

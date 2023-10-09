@@ -28,7 +28,8 @@ namespace DataView
         {
             CustomerGrid.DataContext = GetCustomerData();
             CustomerGrid2.DataContext = GetCustomerData();
-            
+            trvMyTreeView.ItemsSource = GetCustomerData();
+            lsvCustomers.ItemsSource = GetCustomerData();
         }
         private List<Customer> GetCustomerData()
         {
