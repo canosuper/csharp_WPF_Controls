@@ -69,7 +69,8 @@ namespace Layouts
 
         private void GroupBoxButton_Click(object sender, RoutedEventArgs e)
         {
-            
+            GroupBoxWindow gbWindow = new GroupBoxWindow();
+            gbWindow.Show();
         }
 
         private void ThumbButton_Click(object sender, RoutedEventArgs e)
