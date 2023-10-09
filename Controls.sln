@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Layouts", "Layouts\Layouts.csproj", "{7421CF7C-FFF8-4FE4-A351-1EC899FE2CA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Layouts", "Layouts\Layouts.csproj", "{7421CF7C-FFF8-4FE4-A351-1EC899FE2CA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buttons", "Buttons\Buttons.csproj", "{82825A08-6E0D-4988-B08F-5BB0457BDCD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{7421CF7C-FFF8-4FE4-A351-1EC899FE2CA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7421CF7C-FFF8-4FE4-A351-1EC899FE2CA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7421CF7C-FFF8-4FE4-A351-1EC899FE2CA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82825A08-6E0D-4988-B08F-5BB0457BDCD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82825A08-6E0D-4988-B08F-5BB0457BDCD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82825A08-6E0D-4988-B08F-5BB0457BDCD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82825A08-6E0D-4988-B08F-5BB0457BDCD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
