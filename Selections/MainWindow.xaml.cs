@@ -51,6 +51,13 @@ namespace Selections
             txbMyTextBlock2.Text = $"You selected {(lsbMyListBox.SelectedItem as ListBoxItem).Content.ToString()}.";
         }
 
+        private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+            RadioButton? radioButton = sender as RadioButton;
+            if (radioButton is not null)
+                txbMyTextBlock3.Text = $"Seleccionaste: {radioButton.Content.ToString()}.";
+        }
+
     }
 
     class Countries : ObservableCollection<string>
