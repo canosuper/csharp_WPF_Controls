@@ -27,7 +27,8 @@ namespace Layouts
 
         private void BulletDecoratorButton_Click(object sender, RoutedEventArgs e)
         {
-            
+            BulletDecoratorWindow bdWindow = new BulletDecoratorWindow();
+            bdWindow.Show();
         }
 
         private void CanvasButton_Click(object sender, RoutedEventArgs e)
