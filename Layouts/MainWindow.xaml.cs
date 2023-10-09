@@ -47,7 +47,8 @@ namespace Layouts
 
         private void StackPanelButton_Click(object sender, RoutedEventArgs e)
         {
-            
+            StackPanelWindow spWindow = new StackPanelWindow();
+            spWindow.Show();
         }
 
         private void DockPanelButton_Click(object sender, RoutedEventArgs e)
