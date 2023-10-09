@@ -24,5 +24,53 @@ namespace Layouts
         {
             InitializeComponent();
         }
+
+        private void BulletDecoratorButton_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void CanvasButton_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void ExpanderButton_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void GridButton_Click(object sender, RoutedEventArgs e)
+        {
+           
+        }
+
+        private void StackPanelButton_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void DockPanelButton_Click(object sender, RoutedEventArgs e)
+        {
+           
+        }
+
+        private void GridSplitterButton_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void GroupBoxButton_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void ThumbButton_Click(object sender, RoutedEventArgs e)
+        {
+        }
+
+        private void WrapPanelButton_Click(object sender, RoutedEventArgs e)
+        {
+        }
     }
 }
