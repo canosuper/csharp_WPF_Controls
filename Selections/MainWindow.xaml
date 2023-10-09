@@ -15,5 +15,20 @@
         <TextBlock Text="COMBOBOX" Margin="0,20,0,10"  FontSize="18" FontWeight="Bold" Foreground="BlueViolet"/>
         <TextBlock Text="{Binding ElementName=cmbMyComboBox, Path=SelectedItem}"/>
         <ComboBox Name="cmbMyComboBox" Text="My Cities" IsEditable="true" IsReadOnly="false"/>
+
+        <TextBlock Text="LISTBOX" Margin="0,20,0,10" FontSize="18" FontWeight="Bold" Foreground="BlueViolet"/>
+        <TextBlock Name="txbMyTextBlock2" Text="Sin selección aún."></TextBlock>
+        <ListBox Name="lsbMyListBox" Width="100" Height="55" SelectionChanged="lsbMyListBox_SelectionChanged"  SelectionMode="Multiple">
+            <ListBoxItem>Item 1</ListBoxItem>
+            <ListBoxItem>Item 2</ListBoxItem>
+            <ListBoxItem>Item 3</ListBoxItem>
+            <ListBoxItem>Item 4</ListBoxItem>
+            <ListBoxItem>Item 5</ListBoxItem>
+            <ListBoxItem>Item 6</ListBoxItem>
+            <ListBoxItem>Item 7</ListBoxItem>
+            <ListBoxItem>Item 8</ListBoxItem>
+            <ListBoxItem>Item 9</ListBoxItem>
+            <ListBoxItem>Item 10</ListBoxItem>
+        </ListBox>
     </StackPanel>
 </Window>

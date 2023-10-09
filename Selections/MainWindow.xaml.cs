@@ -46,6 +46,11 @@ namespace Selections
             cmbMyComboBox.ItemsSource = new Countries();
         }
 
+        private void lsbMyListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            txbMyTextBlock2.Text = $"You selected {(lsbMyListBox.SelectedItem as ListBoxItem).Content.ToString()}.";
+        }
+
     }
 
     class Countries : ObservableCollection<string>
