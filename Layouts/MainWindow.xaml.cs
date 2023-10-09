@@ -32,7 +32,8 @@ namespace Layouts
 
         private void CanvasButton_Click(object sender, RoutedEventArgs e)
         {
-            
+            CanvasWindow cWindow = new CanvasWindow();
+            cWindow.Show();
         }
 
         private void ExpanderButton_Click(object sender, RoutedEventArgs e)
