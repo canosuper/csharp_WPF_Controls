@@ -22,6 +22,29 @@
                 <MenuItem Header="_Show groups" IsCheckable="True" IsChecked="True" />
             </MenuItem>
         </Menu>
+        <ToolBarTray DockPanel.Dock="Top" Background="White">
+            <ToolBar Band="0" BandIndex="0">
+                <Button Command="New">
+                    <Image Source="Icons\house icon.png" />
+                </Button>
+                <Button>
+                    <Image Source="Icons\house icon.png" />
+                </Button>
+                <Separator/>
+                <Button>
+                    <Image Source="Icons\house icon.png" />
+                </Button>
+            </ToolBar>
+            <ToolBar Band="1" BandIndex="1">
+                <Button>
+                    <Image Source="Icons\house icon.png" />
+                </Button>
+                <Button>
+                    <Image Source="Icons\house icon.png" />
+                </Button>
+
+            </ToolBar>
+        </ToolBarTray>
         <TextBox DockPanel.Dock="Left" Name="textBox1" Height="100" TextWrapping="Wrap" Margin="100" >
             <TextBox.ContextMenu>
                 <ContextMenu>
