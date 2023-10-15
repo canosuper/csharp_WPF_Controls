@@ -5,13 +5,15 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Layouts", "Layouts\Layouts.csproj", "{7421CF7C-FFF8-4FE4-A351-1EC899FE2CA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buttons", "Buttons\Buttons.csproj", "{82825A08-6E0D-4988-B08F-5BB0457BDCD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Buttons", "Buttons\Buttons.csproj", "{82825A08-6E0D-4988-B08F-5BB0457BDCD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataView", "DataView\DataView.csproj", "{3101BED9-8003-4A4B-BAB0-DD8311E06B7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataView", "DataView\DataView.csproj", "{3101BED9-8003-4A4B-BAB0-DD8311E06B7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Menus", "Menus\Menus.csproj", "{C9E86425-3C5B-4AFE-B5BB-BC6CE7488628}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Menus", "Menus\Menus.csproj", "{C9E86425-3C5B-4AFE-B5BB-BC6CE7488628}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selections", "Selections\Selections.csproj", "{8B581A82-0105-4190-B6D1-809EB1EB529A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Selections", "Selections\Selections.csproj", "{8B581A82-0105-4190-B6D1-809EB1EB529A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Navigation", "Navigation\Navigation.csproj", "{AC8D7496-AF91-438B-A515-14C1B2895B79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{8B581A82-0105-4190-B6D1-809EB1EB529A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B581A82-0105-4190-B6D1-809EB1EB529A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B581A82-0105-4190-B6D1-809EB1EB529A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC8D7496-AF91-438B-A515-14C1B2895B79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC8D7496-AF91-438B-A515-14C1B2895B79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC8D7496-AF91-438B-A515-14C1B2895B79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC8D7496-AF91-438B-A515-14C1B2895B79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
