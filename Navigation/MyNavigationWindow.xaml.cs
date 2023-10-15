@@ -16,19 +16,13 @@ using System.Windows.Shapes;
 namespace Navigation
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Lógica de interacción para MyNavigationWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MyNavigationWindow : NavigationWindow
     {
-        public MainWindow()
+        public MyNavigationWindow()
         {
             InitializeComponent();
-        }
-
-        private void btnOpenNavigator_Click(object sender, RoutedEventArgs e)
-        {
-            MyNavigationWindow window = new MyNavigationWindow();
-            window.Show();
         }
     }
 }

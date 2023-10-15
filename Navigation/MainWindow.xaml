@@ -10,5 +10,6 @@
         <TextBlock>Este texto está fuera del FRAME</TextBlock>
         <Frame Name="frmMyFrame" Source="Page1.xaml" />
         <TextBlock>Este texto tambien está fuera del FRAME</TextBlock>
+        <Button x:Name="btnOpenNavigator" Click="btnOpenNavigator_Click">Open NavigateWindow</Button>
     </StackPanel>
 </Window>
